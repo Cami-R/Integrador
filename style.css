@@ -1,0 +1,171 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    background: url("hawaii.jpg");
+    height: 100vh;/*o usar vh*/
+    color: white;
+    padding: 7%;
+    text-align: end;
+    justify-content: end;
+    align-items: end;
+    background-position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.a {
+    width: fit-content;
+    cursor: pointer;
+    padding: 4px 8px;
+    margin-top: .8em;
+    background: green;
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+}
+.b{
+    width: fit-content;
+    cursor: pointer;
+    padding: 4px 8px;
+    margin-top: .8em;
+    background: transparent;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 4px;
+
+}
+.card-group{
+    justify-content: center;
+}
+
+
+
+.titleCards{
+    display:flex;
+    margin: 5px 0;
+    font-size: .75em;
+    flex-direction: column;
+    align-items: center;
+    font-family:sans-serif;
+    text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: none;
+}
+.lowercase a{
+    color:black;
+}
+
+.start{
+    align-self: start;
+}
+
+
+.pub{
+    margin:35px 0;
+    display: flex;
+    height: 400px;
+    gap: 2px;
+    color: white;
+}
+.pub .image{
+    background: url("honolulu.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 250%;
+   
+}
+.pub .text{
+    background-color: rgb(61, 58, 58);
+    padding: 15px;
+}
+.pub .text div:first-child{
+    font-weight: bold;
+    margin-bottom:15px;
+}
+.pub .text button{
+    margin: 15px 0;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    border: 1px solid rgb(208, 190, 190);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.lowercase{
+    text-transform: none;
+}
+.lowercase a{
+    color:black;
+}
+.formu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.start{
+    align-self: start;
+}
+form{
+    padding: 15px 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form div{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+}
+form>div>input{
+    padding: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+
+}
+form>textarea{
+    padding: 2px;
+    margin: 4px 0;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+}
+form>button{
+    width: 100%;
+    color: white;
+    background-color: rgb(174, 203, 87);
+    border: none;
+    border-radius: 3px;
+    padding: 9px 0;
+    -webkit-border-radius:3px ;
+    -moz-border-radius:3px ;
+    -ms-border-radius: 3px;
+    -o-border-radius:3px ;
+}
+
+
+
+footer ul{
+    background-color: rgb(49, 74, 85);
+    align-items: center;
+    display: flex;
+    padding: 25px;
+    justify-content: space-around;
+
+}
+footer ul li{
+    width: 10%;
+    list-style-type: none;
+    
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
