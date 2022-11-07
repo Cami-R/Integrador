@@ -1,0 +1,17 @@
+footer ul{
+    background-color: rgb(49, 74, 85);
+    align-items: center;
+    display: flex;
+    padding: 25px;
+    justify-content: space-around;
+
+}
+footer ul li{
+    width: 10%;
+    list-style-type: none;
+    
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
